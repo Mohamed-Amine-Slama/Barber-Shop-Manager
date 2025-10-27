@@ -1,0 +1,201 @@
+{
+  "auth": {
+    "login": {
+      "title": "Log In",
+      "emailLabel": "Email",
+      "emailPlaceholder": "Enter your email",
+      "passwordLabel": "Password",
+      "passwordPlaceholder": "Enter your password",
+      "submit": "Log In",
+      "noAccount": "Don't have an account?",
+      "signUpLink": "Sign Up",
+      "error": "Invalid email or password"
+    },
+    "signup": {
+      "title": "Sign Up",
+      "backHome": "Back Home",
+      "firstNameLabel": "First Name",
+      "firstNamePlaceholder": "John",
+      "lastNameLabel": "Last Name",
+      "lastNamePlaceholder": "Doe",
+      "emailLabel": "Email",
+      "emailPlaceholder": "john.doe@example.com",
+      "phoneLabel": "Phone Number",
+      "phonePlaceholder": "+2164567890",
+      "passwordLabel": "Password",
+      "passwordPlaceholder": "••••••••",
+      "submit": "Sign Up",
+      "haveAccount": "Already have an account?",
+      "loginLink": "Log in"
+    }
+  },
+  "dashboard": {
+    "user": {
+      "welcome": "Welcome Back!",
+      "backHome": "Back to Home",
+      "logout": "Logout",
+      "appointments": {
+        "title": "My Appointments",
+        "description": "View your upcoming appointments",
+        "bookNew": "Book New Appointment",
+        "upcoming": "Upcoming Appointments",
+        "manage": "Manage your scheduled appointments",
+        "loading": "Loading appointments...",
+        "error": "Error loading appointments",
+        "none": "No appointments scheduled",
+        "reschedule": "Reschedule"
+      },
+      "profile": {
+        "title": "My Profile",
+        "description": "Manage your personal information",
+        "view": "View Profile"
+      },
+      "support": {
+        "title": "Support",
+        "description": "Need help? Contact our support team",
+        "contact": "Get Support"
+      }
+    },
+    "admin": {
+      "title": "Admin Dashboard",
+      "appointments": "Appointments",
+      "patients": "Patients",
+      "staff": "Staff",
+      "loading": "Loading data...",
+      "error": "Error loading data",
+      "sidebar": {
+        "scheduled": "Scheduled",
+        "rescheduled": "Rescheduled",
+        "old": "Old (Completed)"
+      },
+      "sections": {
+        "scheduled": "Scheduled Appointments",
+        "rescheduled": "Rescheduled Appointments",
+        "oldByDay": "Old Data (Completed) by Day"
+      },
+      "table": {
+        "id": "Appointment ID",
+        "customer": "Customer",
+        "contact": "Contact Info",
+        "service": "Service",
+        "staff": "Staff",
+        "datetime": "Date & Time",
+        "status": "Status",
+        "actions": "Actions",
+        "time": "Time"
+      },
+      "empty": {
+        "scheduled": "No scheduled appointments",
+        "rescheduled": "No rescheduled appointments",
+        "completed": "No completed appointments yet."
+      },
+      "actions": {
+        "done": "Done"
+      },
+      "na": "N/A",
+      "notAssigned": "Not Assigned"
+    }
+  },
+  "header": {
+    "title": "Oussama Barber",
+    "subtitle": "Premium Barber Shop",
+    "nav": { "services": "Services", "gallery": "Gallery", "about": "About", "location": "Location" },
+    "book": "Book Now",
+    "login": "Login",
+    "logout": "Logout",
+    "admin": "Admin"
+  },
+  "hero": {
+    "care": "Premium Grooming Since 2012",
+    "headline": "Where Style",
+    "headline_accent": "Meets Precision.",
+    "paragraph": "Experience the art of traditional barbering with modern techniques. From classic cuts to contemporary styles, we craft looks that define you.",
+    "book": "Book Appointment",
+    "see_plans": "See Packages",
+    "stats": { "clients": "Happy Clients", "experience": "Years Experience", "satisfaction": "Satisfaction" },
+    "quickBooking": { "title": "Quick Booking", "service": "Service", "date": "Preferred Date", "name": "Name", "confirm": "Confirm Appointment" }
+  },
+  "staff": {
+    "title": "Dedicated to Your Recovery",
+    "titlePrefix": "Dedicated to ",
+    "titleAccent": "Your Recovery",
+    "description": "Meet the clinicians and therapists committed to your care.",
+    "members": [
+      {
+        "name": "Glen H. Ross",
+        "role": "Senior Physiotherapist",
+        "experience": "14+ years experience",
+        "photo": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=400&q=60"
+      },
+      {
+        "name": "Gracie M. Rush",
+        "role": "Sports Therapist",
+        "experience": "10+ years experience",
+        "photo": "https://images.unsplash.com/photo-1547425260-76bcadfb4f2c?auto=format&fit=crop&w=400&q=60"
+      },
+      {
+        "name": "Alexis J. Cruz",
+        "role": "Orthopedic Specialist",
+        "experience": "12+ years experience",
+        "photo": "https://images.unsplash.com/photo-1520813792240-56fc4a3765a7?auto=format&fit=crop&w=400&q=60"
+      },
+      {
+        "name": "Sarah T. Morse",
+        "role": "Pediatric Therapist",
+        "experience": "8+ years experience",
+        "photo": "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?auto=format&fit=crop&w=400&q=60"
+      }
+    ]
+  },
+  "services": {
+    "title": "Premium Grooming Services",
+    "description": "Expert barbering services tailored to your style and grooming needs. Classic techniques meet modern precision.",
+    "list": [
+      { "title": "Classic Haircut", "description": "Traditional and modern haircuts styled to perfection by our expert barbers.", "features": ["Consultation", "Precision cutting", "Style finish", "Hot towel treatment"] },
+      { "title": "Beard Trim & Shape", "description": "Professional beard grooming and shaping to complement your facial features.", "features": ["Beard analysis", "Precision trimming", "Edge definition", "Conditioning treatment"] },
+      { "title": "Hot Towel Shave", "description": "Luxurious traditional straight razor shave with hot towels and premium products.", "features": ["Steam preparation", "Straight razor shave", "Soothing aftershave", "Face massage"] },
+      { "title": "Complete Grooming", "description": "Full service grooming package combining haircut, beard care, and shave.", "features": ["Haircut & style", "Beard trim", "Hot towel shave", "Scalp massage"] }
+    ]
+  },
+  "how": {
+    "title": "How It Works",
+    "paragraph": "Getting your perfect cut is simple and convenient with our streamlined booking process.",
+    "steps": [
+      { "number": "01", "title": "Book Your Appointment", "description": "Choose your preferred service, barber, date, and time through our easy online booking system." },
+      { "number": "02", "title": "Consultation & Service", "description": "Discuss your desired style with your barber and enjoy premium grooming in a relaxing atmosphere." },
+      { "number": "03", "title": "Look & Feel Great", "description": "Walk out with a fresh, confident look and schedule your next appointment to maintain your style." }
+    ]
+  },
+  "news": {
+    "title": "Latest News & Updates",
+    "paragraph": "Stay informed about the latest trends in men's grooming and barbering techniques.",
+    "items": [
+      { "category": "New Service", "title": "Premium Hair Treatments Now Available", "excerpt": "Introducing our new line of premium scalp and hair treatments using organic products for healthier, better-looking hair.", "date": "March 15, 2024", "readTime": "3 min read" },
+      { "category": "Style Guide", "title": "Top 5 Beard Styles for 2024", "excerpt": "Discover the trending beard styles this season and learn how to maintain them with expert tips from our master barbers.", "date": "March 10, 2024", "readTime": "5 min read" },
+      { "category": "Tips", "title": "Daily Grooming Routine for Modern Men", "excerpt": "Essential grooming habits and products every gentleman should incorporate into his daily routine for optimal results.", "date": "March 5, 2024", "readTime": "4 min read" }
+    ],
+    "view_all": "View All Articles",
+    "cta": "View All Articles"
+  },
+  "plans": {
+    "title": "Choose Your Grooming Package",
+    "paragraph": "Flexible membership packages designed to keep you looking sharp all year round.",
+    "list": [
+      { "name": "Basic", "price": 89, "period": "1 month", "sessions": 2, "description": "Perfect for maintaining your style with regular cuts", "features": ["2 Haircuts per month","Basic styling","Hot towel service","Priority booking","10% off products"], "popular": false },
+      { "name": "Gentleman", "price": 159, "period": "1 month", "sessions": 3, "description": "Complete grooming with haircut and beard maintenance", "features": ["3 Services per month","Haircut & beard trim","Hot towel treatment","Complimentary beverages","Priority scheduling","15% off products","Free styling consultation"], "popular": true },
+      { "name": "Executive", "price": 249, "period": "1 month", "sessions": 4, "description": "Premium unlimited grooming with exclusive perks", "features": ["4+ Services per month","All grooming services","VIP booking priority","Complimentary hot shaves","Premium product line","20% off all products","Dedicated barber","Grooming consultation"], "popular": false }
+    ],
+    "not_sure": "Not sure which package is right for you?",
+    "consultation_cta": "Schedule Free Consultation",
+    "choose_plan": "Choose {name} Package",
+    "most_popular": "Most Popular"
+  },
+  "footer": {
+    "caring": "Crafting style since 2012",
+  "contact": { "phone": "+216 58 405 412", "email": "oussamabarber@gmail.com", "address": "AV charles de gaulle Hammam Sousse" },
+    "hours": "Mon-Fri: 9:00 AM - 7:00 PM",
+    "hoursSaturday": "Sat: 9:00 AM - 2:00 PM",
+    "hoursSunday": "Sun: Closed",
+    "copyright": "© 2024 Oussama Barber Premium Barber Shop. All rights reserved."
+  }
+}

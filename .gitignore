@@ -1,0 +1,52 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Local environment files
+.env
+.env.local
+.env.production
+
+# Backend scripts with API keys and credentials
+backend/createAdmin.js
+backend/deleteAllUsers.js
+backend/setupAdmin.js
+backend/listAllUsers.js
+backend/test-signup.mjs
+
+# Supabase configuration files
+src/lib/supabase.ts
+
+# Any files containing API keys or secrets
+**/supabase-service-key.txt
+**/*credentials*.json
+**/*secrets*.json
+
+
+
+# Large files
+public/WindsurfUserSetup-x64-1.12.12.exe
+*.exe
+

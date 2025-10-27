@@ -1,0 +1,133 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Design System
+   Colors: Black, #F5F5F0, #E6D8C3, #C2A68C, #5D866C
+   All colors in HSL format.
+*/
+
+@layer base {
+  :root {
+    --background: 60 20% 96%;     /* #F5F5F0 - Cream background */
+    --foreground: 0 0% 0%;        /* Black - Text */
+
+    --card: 0 0% 100%;            /* White cards */
+    --card-foreground: 0 0% 0%;   /* Black text on cards */
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 0%;
+
+    /* Sage green primary palette */
+    --primary: 145 21% 45%;       /* #5D866C - Sage green */
+    --primary-light: 145 21% 55%; /* Lighter sage */
+    --primary-foreground: 60 20% 96%;
+
+    --secondary: 30 30% 66%;      /* #C2A68C - Tan/brown */
+    --secondary-foreground: 0 0% 0%;
+
+    --muted: 40 40% 83%;          /* #E6D8C3 - Light beige */
+    --muted-foreground: 0 0% 30%;
+
+    --accent: 40 40% 83%;         /* #E6D8C3 - Light beige accent */
+    --accent-foreground: 0 0% 0%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 40 40% 88%;
+    --input: 60 20% 94%;
+    --ring: 145 21% 45%;
+
+    /* Custom gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(145 21% 45%), hsl(145 21% 55%));
+    --gradient-card: linear-gradient(145deg, hsl(0 0% 100%), hsl(40 40% 88%));
+    --gradient-accent: linear-gradient(120deg, hsl(40 40% 83%), hsl(30 30% 66%));
+    
+    /* Shadows for depth */
+    --shadow-soft: 0 2px 8px hsl(0 0% 0% / 0.08);
+    --shadow-medium: 0 4px 16px hsl(0 0% 0% / 0.12);
+    --shadow-strong: 0 8px 24px hsl(0 0% 0% / 0.16);
+    
+    /* Smooth transitions */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+    --radius: 0.5rem;
+
+    --sidebar-background: 60 20% 98%;
+
+    --sidebar-foreground: 0 0% 0%;
+
+    --sidebar-primary: 145 21% 45%;
+
+    --sidebar-primary-foreground: 60 20% 96%;
+
+    --sidebar-accent: 40 40% 83%;
+
+    --sidebar-accent-foreground: 0 0% 0%;
+
+    --sidebar-border: 40 40% 88%;
+
+    --sidebar-ring: 145 21% 45%;
+  }
+
+  .dark {
+    --background: 0 0% 8%;        /* Dark black background */
+    --foreground: 60 20% 96%;     /* Cream text */
+
+    --card: 0 0% 12%;             /* Dark cards */
+    --card-foreground: 60 20% 96%;
+
+    --popover: 0 0% 12%;
+    --popover-foreground: 60 20% 96%;
+
+    --primary: 145 21% 55%;       /* Brighter sage for dark mode */
+    --primary-light: 145 21% 65%;
+    --primary-foreground: 0 0% 8%;
+
+    --secondary: 30 30% 60%;      /* Tan/brown */
+    --secondary-foreground: 60 20% 96%;
+
+    --muted: 0 0% 15%;
+    --muted-foreground: 40 40% 75%;
+
+    --accent: 30 30% 50%;
+    --accent-foreground: 60 20% 96%;
+
+    --destructive: 0 75% 55%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 0 0% 20%;
+    --input: 0 0% 15%;
+    --ring: 145 21% 55%;
+
+    /* Dark mode gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(145 21% 50%), hsl(145 21% 60%));
+    --gradient-card: linear-gradient(145deg, hsl(0 0% 12%), hsl(0 0% 15%));
+    --gradient-accent: linear-gradient(120deg, hsl(30 30% 50%), hsl(40 40% 70%));
+    
+    /* Dark mode shadows */
+    --shadow-soft: 0 2px 8px hsl(0 0% 0% / 0.3);
+    --shadow-medium: 0 4px 16px hsl(0 0% 0% / 0.4);
+    --shadow-strong: 0 8px 24px hsl(0 0% 0% / 0.5);
+    --sidebar-background: 0 0% 10%;
+    --sidebar-foreground: 60 20% 96%;
+    --sidebar-primary: 145 21% 55%;
+    --sidebar-primary-foreground: 0 0% 8%;
+    --sidebar-accent: 30 30% 50%;
+    --sidebar-accent-foreground: 60 20% 96%;
+    --sidebar-border: 0 0% 20%;
+    --sidebar-ring: 145 21% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}

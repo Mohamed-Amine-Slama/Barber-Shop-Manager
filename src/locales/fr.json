@@ -1,0 +1,199 @@
+{
+  "auth": {
+    "login": {
+      "title": "Connexion",
+      "emailLabel": "Email",
+      "emailPlaceholder": "Entrez votre email",
+      "passwordLabel": "Mot de passe",
+      "passwordPlaceholder": "Entrez votre mot de passe",
+      "submit": "Se connecter",
+      "noAccount": "Pas encore de compte ?",
+      "signUpLink": "S'inscrire",
+      "error": "Email ou mot de passe invalide"
+    },
+    "signup": {
+      "title": "Inscription",
+      "backHome": "Retour à l'accueil",
+      "firstNameLabel": "Prénom",
+      "firstNamePlaceholder": "Jean",
+      "lastNameLabel": "Nom",
+      "lastNamePlaceholder": "Dupont",
+      "emailLabel": "Email",
+      "emailPlaceholder": "jean.dupont@example.com",
+      "phoneLabel": "Numéro de téléphone",
+      "phonePlaceholder": "+33612345678",
+      "passwordLabel": "Mot de passe",
+      "passwordPlaceholder": "••••••••",
+      "submit": "S'inscrire",
+      "haveAccount": "Déjà un compte ?",
+      "loginLink": "Se connecter"
+    }
+  },
+  "dashboard": {
+    "user": {
+      "welcome": "Bon retour !",
+      "backHome": "Retour à l'accueil",
+      "logout": "Se déconnecter",
+      "appointments": {
+        "title": "Mes rendez-vous",
+        "description": "Voir vos prochains rendez-vous",
+        "bookNew": "Prendre un nouveau rendez-vous",
+        "upcoming": "Prochains rendez-vous",
+        "manage": "Gérer vos rendez-vous planifiés",
+        "loading": "Chargement des rendez-vous...",
+        "error": "Erreur lors du chargement des rendez-vous",
+        "none": "Aucun rendez-vous planifié",
+        "reschedule": "Reprogrammer"
+      },
+      "profile": {
+        "title": "Mon profil",
+        "description": "Gérer vos informations personnelles",
+        "view": "Voir le profil"
+      },
+      "support": {
+        "title": "Support",
+        "description": "Besoin d'aide ? Contactez notre équipe support",
+        "contact": "Contacter le support"
+      }
+    },
+    "admin": {
+      "title": "Tableau de bord administrateur",
+      "appointments": "Rendez-vous",
+      "patients": "Patients",
+      "staff": "Personnel",
+      "loading": "Chargement des données...",
+      "error": "Erreur lors du chargement des données",
+      "sidebar": {
+        "scheduled": "Planifiés",
+        "rescheduled": "Replanifiés",
+        "old": "Anciens (Terminés)"
+      },
+      "sections": {
+        "scheduled": "Rendez-vous planifiés",
+        "rescheduled": "Rendez-vous replanifiés",
+        "oldByDay": "Données anciennes (Terminées) par jour"
+      },
+      "table": {
+        "id": "ID du rendez-vous",
+        "customer": "Client",
+        "contact": "Contact",
+        "service": "Service",
+        "staff": "Personnel",
+        "datetime": "Date & Heure",
+        "status": "Statut",
+        "actions": "Actions",
+        "time": "Heure"
+      },
+      "empty": {
+        "scheduled": "Aucun rendez-vous planifié",
+        "rescheduled": "Aucun rendez-vous replanifié",
+        "completed": "Aucun rendez-vous terminé pour le moment."
+      },
+      "actions": {
+        "done": "Terminé"
+      },
+      "na": "N/A",
+      "notAssigned": "Non attribué"
+    }
+  },
+  "header": {
+    "title": "Oussama Barber",
+    "subtitle": "Salon de Coiffure Premium",
+    "nav": { "services": "Services", "gallery": "Galerie", "about": "À propos", "location": "Localisation" },
+    "book": "Réserver",
+    "login": "Se connecter",
+    "logout": "Se déconnecter",
+    "admin": "Admin"
+  },
+  "hero": {
+    "care": "Toilettage Premium depuis 2012",
+    "headline": "Où le Style",
+    "headline_accent": "Rencontre la Précision.",
+    "paragraph": "Découvrez l'art du barbier traditionnel avec des techniques modernes. Des coupes classiques aux styles contemporains, nous créons des looks qui vous définissent.",
+    "book": "Prendre rendez-vous",
+    "see_plans": "Voir les forfaits",
+    "stats": { "clients": "Clients satisfaits", "experience": "Années d'expérience", "satisfaction": "Satisfaction" },
+    "quickBooking": { "title": "Réservation rapide", "service": "Service", "date": "Date préférée", "name": "Nom", "confirm": "Confirmer le rendez-vous" }
+  },
+  "staff": {
+    "title": "Dévoués à votre rétablissement",
+    "description": "Rencontrez les cliniciens et thérapeutes dédiés à vos soins.",
+    "members": [
+      {
+        "name": "Glen H. Ross",
+        "role": "Physiothérapeute senior",
+        "experience": "14+ ans d'expérience",
+        "photo": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=400&q=60"
+      },
+      {
+        "name": "Gracie M. Rush",
+        "role": "Thérapeute du sport",
+        "experience": "10+ ans d'expérience",
+        "photo": "https://images.unsplash.com/photo-1547425260-76bcadfb4f2c?auto=format&fit=crop&w=400&q=60"
+      },
+      {
+        "name": "Alexis J. Cruz",
+        "role": "Spécialiste orthopédique",
+        "experience": "12+ ans d'expérience",
+        "photo": "https://images.unsplash.com/photo-1520813792240-56fc4a3765a7?auto=format&fit=crop&w=400&q=60"
+      },
+      {
+        "name": "Sarah T. Morse",
+        "role": "Thérapeute pédiatrique",
+        "experience": "8+ ans d'expérience",
+        "photo": "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?auto=format&fit=crop&w=400&q=60"
+      }
+    ]
+  },
+  "services": {
+    "title": "Services de Toilettage Premium",
+    "description": "Services de barbier experts adaptés à votre style et vos besoins de toilettage. Les techniques classiques rencontrent la précision moderne.",
+    "list": [
+      { "title": "Coupe Classique", "description": "Coupes traditionnelles et modernes stylisées à la perfection par nos barbiers experts.", "features": ["Consultation", "Coupe de précision", "Finition stylée", "Traitement serviette chaude"] },
+      { "title": "Taille de Barbe", "description": "Toilettage et façonnage professionnel de la barbe pour compléter vos traits.", "features": ["Analyse de barbe", "Taille précise", "Définition des contours", "Traitement conditionnant"] },
+      { "title": "Rasage Serviette Chaude", "description": "Rasage luxueux au rasoir traditionnel avec serviettes chaudes et produits premium.", "features": ["Préparation vapeur", "Rasage au rasoir", "Après-rasage apaisant", "Massage du visage"] },
+      { "title": "Toilettage Complet", "description": "Service complet combinant coupe, soin de barbe et rasage.", "features": ["Coupe & style", "Taille de barbe", "Rasage serviette chaude", "Massage du cuir chevelu"] }
+    ]
+  },
+  "how": {
+    "title": "Comment ça marche",
+    "paragraph": "Obtenir votre coupe parfaite est simple et pratique avec notre processus de réservation simplifié.",
+    "steps": [
+      { "number": "01", "title": "Réservez votre rendez-vous", "description": "Choisissez votre service, barbier, date et heure préférés via notre système de réservation en ligne facile." },
+      { "number": "02", "title": "Consultation & Service", "description": "Discutez de votre style désiré avec votre barbier et profitez d'un toilettage premium dans une atmosphère relaxante." },
+      { "number": "03", "title": "Look & Confiance", "description": "Repartez avec un look frais et confiant et planifiez votre prochain rendez-vous pour maintenir votre style." }
+    ]
+  },
+  "news": {
+    "title": "Dernières nouvelles & mises à jour",
+    "paragraph": "Restez informé des dernières tendances en toilettage masculin et techniques de barbier.",
+    "items": [
+      { "category": "Nouveau service", "title": "Traitements Capillaires Premium Disponibles", "excerpt": "Présentation de notre nouvelle gamme de traitements du cuir chevelu et des cheveux utilisant des produits bio pour des cheveux plus sains.", "date": "15 mars 2024", "readTime": "3 min" },
+      { "category": "Guide de Style", "title": "Top 5 des Styles de Barbe pour 2024", "excerpt": "Découvrez les styles de barbe tendance cette saison et apprenez à les entretenir avec les conseils de nos maîtres barbiers.", "date": "10 mars 2024", "readTime": "5 min" },
+      { "category": "Conseils", "title": "Routine de Toilettage Quotidienne pour Hommes Modernes", "excerpt": "Habitudes de toilettage essentielles et produits que tout gentleman devrait intégrer dans sa routine quotidienne.", "date": "5 mars 2024", "readTime": "4 min" }
+    ],
+    "view_all": "Voir tous les articles",
+    "cta": "Voir tous les articles"
+  },
+  "plans": {
+    "title": "Choisissez votre forfait de toilettage",
+    "paragraph": "Forfaits d'adhésion flexibles conçus pour vous garder élégant toute l'année.",
+    "list": [
+      { "name": "Basique", "price": 89, "period": "1 mois", "sessions": 2, "description": "Parfait pour maintenir votre style avec des coupes régulières", "features": ["2 coupes par mois","Coiffure basique","Service serviette chaude","Réservation prioritaire","10% sur produits"], "popular": false },
+      { "name": "Gentleman", "price": 159, "period": "1 mois", "sessions": 3, "description": "Toilettage complet avec coupe et entretien de barbe", "features": ["3 services par mois","Coupe & taille barbe","Traitement serviette chaude","Boissons offertes","Planification prioritaire","15% sur produits","Consultation style gratuite"], "popular": true },
+      { "name": "Exécutif", "price": 249, "period": "1 mois", "sessions": 4, "description": "Toilettage premium illimité avec avantages exclusifs", "features": ["4+ services par mois","Tous services toilettage","Priorité VIP","Rasages chauds gratuits","Gamme produits premium","20% sur tous produits","Barbier dédié","Consultation toilettage"], "popular": false }
+    ],
+    "not_sure": "Pas sûr du forfait qui vous convient ?",
+    "consultation_cta": "Planifier une consultation gratuite",
+    "choose_plan": "Choisir le forfait {name}",
+    "most_popular": "Le plus populaire"
+  },
+  "footer": {
+    "caring": "Créer du style depuis 2012",
+  "contact": { "phone": "+216 58 405 412", "email": "oussamabarber@gmail.com", "address": "AV charles de gaulle Hammam Sousse" },
+    "hours": "Lun-Ven : 9h00 - 19h00",
+    "hoursSaturday": "Sam : 9h00 - 14h00",
+    "hoursSunday": "Dim : Fermé",
+    "copyright": "© 2024 Oussama Barber Salon de Coiffure Premium. Tous droits réservés."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "css.lint.unknownAtRules": "ignore",
+  "css.validate": true,
+  "tailwindCSS.includeLanguages": {
+    "typescriptreact": "javascript",
+    "javascriptreact": "javascript",
+    "plaintext": "html",
+    "postcss": "css"
+  },
+  "tailwindCSS.experimental.configFile": "tailwind.config.ts",
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "tailwindCSS.emmetCompletions": true
+}
