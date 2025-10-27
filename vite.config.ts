@@ -22,7 +22,6 @@ export default defineConfig(({ mode }) => ({
         manualChunks: {
           vendor: ['react', 'react-dom'],
           ui: ['@radix-ui/react-dropdown-menu', '@radix-ui/react-dialog', '@radix-ui/react-avatar'],
-          supabase: ['@supabase/supabase-js'],
         },
       },
     },
